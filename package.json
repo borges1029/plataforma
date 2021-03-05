@@ -1,0 +1,32 @@
+{
+  "name": "plataforma",
+  "version": "1.0.0",
+  "description": "plataforma de gerenciamento",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/borges1029/plataforma.git"
+  },
+  "author": "Alexandro dos Santos Borges",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/borges1029/plataforma/issues"
+  },
+  "homepage": "https://github.com/borges1029/plataforma#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mogoose": "0.0.1-security",
+    "mongoose": "^5.11.18",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
